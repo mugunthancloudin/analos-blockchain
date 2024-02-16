@@ -1,0 +1,94 @@
+.homeContainer{
+    width: 100%;
+}
+
+.social-item {
+    align-items: flex-start;
+    background: #1b222f;
+    border-radius: 14px;
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.mediablock-inside {
+    align-items: center;
+    background-color: #121723;
+    border-radius: 31px;
+    color: #fff;
+    display: flex;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    gap: 60px;
+    line-height: normal;
+    padding: 10px 35px;
+}
+
+.mediablock {
+    --a: 10deg;
+    animation: grad 3s ease-in-out infinite;
+    background: linear-gradient(91deg,#d22afb,#a9a5bb 21.56%,#49b4c2 68.36%,#39c5bb 85.72%,#0df2a8 100.97%);
+    background: linear-gradient(var(--a),#d22afb 0,#8775dc 21.56%,#49b4c2 68.36%,#39c5bb 85.72%,#0df2a8 100.97%);
+    border-radius: 31px;
+    display: flex;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    padding: 3px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.homeDoge{
+    position: absolute;
+    width: 20%;
+    top: 25%;
+    left: 0;
+}
+
+.homeHuman{
+    position: absolute;
+    width: 20%;
+    top: 25%;
+    right:0;
+}
+
+.footer-line {
+    align-items: center;
+    align-self: flex-end;
+    background: linear-gradient(91deg, #d22afb, #8775dc 21.56%, #49b4c2 68.36%, #39c5bb 85.72%, #0df2a8 100.97%);
+    bottom: 0;
+    box-shadow: 0 -17px 38px 0 #09081b4a, 0 -69px 69px 0 #09081b42, 0 -156px 93px 0 #09081b26, 0 -277px 111px 0 #09081b0a, 0 -433px 121px 0 #09081b03;
+    height: 69px;
+    z-index: 100;
+    display: flex;
+    width: 100%;
+  }
+  
+  .scroll {
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .RightToLeft {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scrollText 150s linear infinite; /* Adjust time for smooth looping */
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  @keyframes scrollText {
+    from { transform: translateX(0%); }
+    to { transform: translateX(-50%); } /* Adjust to -50% for seamless looping */
+  }
+  
+  
