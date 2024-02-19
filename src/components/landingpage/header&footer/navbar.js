@@ -30,6 +30,8 @@ function Topbar() {
             />
             
           </Navbar.Brand>
+
+          
           <Navbar.Toggle aria-controls="navbarScroll" className="text-white" />
           <Navbar.Collapse id="navbarScroll" className="justify-content-center">
             <Nav className=" navbar-nav-scroll" navbarScroll>
@@ -64,32 +66,11 @@ function Topbar() {
               >
                 Tokenomics
               </ScrollLink>
-
-              {/* <ScrollLink
-                to="action4"
-                // smooth={true}
-                duration={700}
-                spy={true}
-                exact="true"
-                className="me-3 text-white fw-bold mt-2 link-underline link-underline-opacity-0"
-              >
-                Tools
-              </ScrollLink>
-              <ScrollLink
-                to="action5"
-                // smooth={true}
-                duration={800}
-                spy={true}
-                exact="true"
-                className="me-3 text-white fw-bold mt-2 link-underline link-underline-opacity-0"
-              >
-                Contact Us
-              </ScrollLink> */}
             </Nav>
 
 
-            {/* <Nav className="">
-              <button>login</button>
+            {/* <Nav className="navBtn">
+              <button className="">login</button>
             </Nav> */}
 
 
@@ -101,3 +82,35 @@ function Topbar() {
 }
 
 export default Topbar;
+
+
+{/* <Navbar collapseOnSelect expand="lg" className="navBg py-3" sticky="top">
+<Container fluid className="navBg">
+  <Navbar.Brand href="/" className="brandName">
+    <img src={logo} alt="logo" width={30}  className="pb-1 me-2"/>
+    WeTask
+  </Navbar.Brand>
+
+  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+
+  <Navbar.Collapse id="responsive-navbar-nav" className="navtop">
+    <Nav className="center">
+      <Nav.Link href="/campaign" className="text-white ms-3 navTitle">
+        Campaign
+      </Nav.Link>
+      <Nav.Link href="/event" className="text-white ms-3 navTitle">
+        Event
+      </Nav.Link>
+      <Nav.Link href="/space" className="text-white ms-3 navTitle">
+        Space
+      </Nav.Link>
+    </Nav>
+
+    <Nav className="">
+      <Nav.Link>
+        <button className="Btn"></button>
+      </Nav.Link>
+    </Nav>
+  </Navbar.Collapse>
+</Container>
+</Navbar> */}
