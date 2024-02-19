@@ -1,12 +1,14 @@
 .homeContainer{
     width: 100%;
-    background-image: url("../../assets//home//404\ BG-01.svg");
+    background-image: url("../../assets//home/404bg.png");
     background-size: cover;
-    background-repeat: no-repeat;   
+    background-repeat: no-repeat;
+    /* opacity: 0.2;
+    zoom: 1; */
 }
 
 .title{
-  margin-top: 20%;
+  margin-top: 15%;
   width: 100%;
 }
 
