@@ -1,50 +1,52 @@
-.tokenomicsContainer {
-    width: 100%;
-    background-image: url("../../assets//home/404bg.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+/* .tokenomicsContainer {
+  width: 100%;
+  background-image: url("../../assets//home/404bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
 
-.desktopMainDiv{
-    position: relative;
-    width: 100%;
+.desktopMainDiv {
+  position: relative;
+  width: 100%;
 }
 
-.tokenomicsDesktop{
-    width: 100%;
+.tokenomicsDesktop {
+  width: 100%;
 }
 
-.tokenomicsMemes{
-    animation: moveUpDown 2s ease-in-out infinite;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%
+.tokenomicsMemes {
+  animation: moveUpDown 2s ease-in-out infinite;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
-.analos{
-    animation: moveUpDown 2s ease-in-out infinite;
-    position: absolute;
-    top: 30%;
-    left: 33%;
-    width: 25%;
-
+.analos {
+  animation: moveUpDown 2s ease-in-out infinite;
+  position: absolute;
+  top: 30%;
+  left: 33%;
+  width: 25%;
 }
-
-
 
 .line-footer {
-    align-items: center;
-    background: linear-gradient(91deg,#d22afb,#8775dc 21.56%,#49b4c2 68.36%,#39c5bb 85.72%,#0df2a8 100.97%);
-    color: #1418286e;
-    display: flex;
-    font-family: Poppins;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    height: 69px;
-    justify-content: center;
-    line-height: normal;
+  align-items: center;
+  background: linear-gradient(
+    91deg,
+    #d22afb,
+    #8775dc 21.56%,
+    #49b4c2 68.36%,
+    #39c5bb 85.72%,
+    #0df2a8 100.97%
+  );
+  color: #1418286e;
+  display: flex;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  height: 69px;
+  justify-content: center;
+  line-height: normal;
 }
-
-
