@@ -9,7 +9,7 @@ export default function Roadmap() {
   return (
     <>
       <div className="bg-black text-white text-center pb-5">
-      <div className="roadmap-title"><h1>ROADMAP</h1></div>
+      <div className="roadmap-title py-3"><h1 className='fw-bold'>ROADMAP</h1></div>
       <div className="roadmap-text mb-5">
         <h5>
         PUMP, PUMP, PUMP, PUMP, PUMP, PUMP, PUMP, PUMP,
@@ -36,6 +36,6 @@ export default function Roadmap() {
         </div>
       </div>
     </div>
-    </>
+    </> 
   )
 }
