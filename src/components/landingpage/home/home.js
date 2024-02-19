@@ -49,9 +49,9 @@ export default function Home() {
                   <img src={telegramLogo} alt="Telegram" className="w-50" />
                 </a>
               </div>
-              {/* <span className="contract-text text-warp w-100">
+              <span className="contract-text text-warp w-100">
                 <p className="pt-2 text-Warp"> CA: 7iT1GRYYhEop2nV1dyCwK2MGyLmPHq47WhPGSwiqcUg5</p>
-              </span> */}
+              </span>
             </div>
 
             <img src={doge} alt="Telegram" className=" homeDoge" />
