@@ -7,6 +7,14 @@
   display: none;
 }
 
+.roadmapContainer {
+  width: 100%;
+  background-image: url("../../assets//home/404bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
 @media (max-width: 768px) {
   .desktop-only {
     display: none;

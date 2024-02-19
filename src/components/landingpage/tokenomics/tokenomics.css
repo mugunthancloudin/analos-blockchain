@@ -1,3 +1,10 @@
+.tokenomicsContainer {
+    width: 100%;
+    background-image: url("../../assets//home/404bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
 .desktopMainDiv{
     position: relative;
     width: 100%;
