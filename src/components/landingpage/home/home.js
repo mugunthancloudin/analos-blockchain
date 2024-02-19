@@ -3,29 +3,29 @@ import "./home.css";
 import title from "../../assets/home/Arodnap FONT-01.svg";
 import twitterLogo from "../../assets/home/twitterLogo.svg";
 import telegramLogo from "../../assets/home/telegramLogo.svg";
-import doge from "../../assets/home/bonk.doge.svg"
-import human from "../../assets/home/sbfMobile.png"
+import doge from "../../assets/home/bonk.doge.svg";
+import human from "../../assets/home/sbfMobile.png";
 import Topbar from "../header&footer/navbar";
 
-
 export default function Home() {
-
   const buttonText = "Buy now / ";
   // Generate a long string of repeated text
-  const repeatedText = buttonText.repeat(100); 
-
+  const repeatedText = buttonText.repeat(100);
 
   return (
     <>
-      <div className="container-fluid bg-black action1   homeContainer">
+      <div className="container-fluid bg-black action1 pb-5  homeContainer">
         <div className="row">
-          <Topbar/>
+          <Topbar />
         </div>
         <div className="row d-flex justify-content-center position-relative">
           <div className="col-lg-6 text-center text-white">
-            <img src={title} alt="title" className="title w-100" />
-            <h1 className="fw-bold">Look Right, Move Left</h1>
-            <h5 className="fw-bold">
+            <div className="justify-content-center  w-100 align-items-center d-flex">
+              {/* <span className="homeDoller">$</span> */}
+              <img src={title} alt="title" className="title" />
+            </div>
+            <h1 className="fw-bold mt-3">Look Right, Move Left</h1>
+            <h5 className="fw-bold mt-2">
               Created as a culmination of all the memeable events on solana
             </h5>
 
@@ -56,19 +56,18 @@ export default function Home() {
 
             <img src={doge} alt="Telegram" className=" homeDoge" />
             <img src={human} alt="human" className=" homeHuman" />
-
           </div>
         </div>
         {/* <div className="row"> */}
-      <div className="footer-line">
-        <div className="scroll">
-          <div className="RightToLeft">
-          {repeatedText}
-            {repeatedText}
+        <div className="footer-line mt-3">
+          <div className="scroll">
+            <div className="RightToLeft">
+              {repeatedText}
+              {repeatedText}
+            </div>
           </div>
         </div>
-      </div>
-    {/* </div> */}
+        {/* </div> */}
       </div>
     </>
   );
