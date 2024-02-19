@@ -27,7 +27,7 @@ export default function Home() {
             </div>
             <h1 className="fw-bold mt-3">Look Right, Move Left</h1>
             <h5 className="fw-bold mt-2">
-              Created as a culmination of all the memeable events on solana 
+            $Arodnap is the First Reverse Token Created on ERC404
             </h5>
 
             <div className="mediablock " style={{ zIndex: 1000 }}>
