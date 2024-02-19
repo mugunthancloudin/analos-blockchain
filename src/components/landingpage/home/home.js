@@ -21,7 +21,7 @@ export default function Home() {
         </div>
         <div className="row d-flex justify-content-center position-relative">
           <div className="col-lg-12 text-center text-white">
-            <div className="">
+            <div className="titleDiv">
               {/* <span className="homeDoller">$</span> */}
               <img src={title} alt="title" className="title" />
             </div>

@@ -86,6 +86,11 @@
   .mediablock{
     width: 100% !important;
   }
+
+  .titleDiv{
+    margin-top: 15%;
+  }
+
 }
 
 .homeDoge {
