@@ -1,43 +1,59 @@
-/* Styles for desktop and larger devices */
 .desktop-only {
-    /* display: block; */
-    width: 100%; /* or 'inline-block', depending on your layout */
-  }
-  
-  .mobile-only {
+  display: block;
+  width: 100%;
+}
+
+.mobile-only {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .desktop-only {
     display: none;
   }
-
-  @media (max-width: 768px) { 
-    .desktop-only {
-      display: none;
-    }
-    .mobile-only {
-      display: block;
-    }
-  }
-  
-  .mainImg{
+  .mobile-only {
+    display: block;
     width: 100%;
   }
+}
 
-  .roadmapMems{
-    position: absolute;
-    top: 0;
-    animation: moveUpDown 2s ease-in-out infinite;
-  }
+.mainImg {
+  width: 100%;
+}
 
-  @keyframes moveUpDown {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-20px); /* Adjust the value to control the movement distance */
-    }
+.roadmapMems {
+  position: absolute;
+  top: 0;
+  animation: moveUpDown 2s ease-in-out infinite;
+}
+
+@keyframes moveUpDown {
+  0%,
+  100% {
+    transform: translateY(0);
   }
-  
-  .maptestiBg{
-    background-image: url("../../assets/roadmap/bgThirdScreen.svg");
+  50% {
+    transform: translateY(
+      -20px
+    ); /* Adjust the value to control the movement distance */
+  }
+}
+
+.maptestiBg {
+  background-image: url("../../assets/roadmap/bgThirdScreen.svg");
+  width: 100%;
+  height: 50vh;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+@media screen and (max-width: 786px) {
+  .maptestiBg {
+    background-image: url("../../assets/roadmap/thirdMobile.svg");
     width: 100%;
     height: 50vh;
     background-size: contain;
@@ -45,23 +61,36 @@
     background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
-    display:flex;
-    
-  }
-  
-  .roadmap-btn {
-    align-items: center;
-    background: linear-gradient(91deg,#d22afbcc,#8775dccc 21.56%,#49b4c2cc 68.36%,#39c5bbcc 85.72%,#0df2a8cc 100.97%);
-    border-radius: 17px;
-    color: #191f2e;
-    cursor: pointer;
     display: flex;
-    font-size: 12px;
-    gap: 10px;
-    height: 30px;
-    justify-content: center;
-    margin: 15px auto auto;
-    text-decoration: none;
-    width: 100px;
-    border: none;
-} 
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .roadmapFont {
+    font-size: 10px;
+  }
+}
+
+.roadmap-btn {
+  align-items: center;
+  background: linear-gradient(
+    91deg,
+    #d22afbcc,
+    #8775dccc 21.56%,
+    #49b4c2cc 68.36%,
+    #39c5bbcc 85.72%,
+    #0df2a8cc 100.97%
+  );
+  border-radius: 17px;
+  color: #191f2e;
+  cursor: pointer;
+  display: flex;
+  /* font-size: 12px; */
+  gap: 10px;
+  height: 30px;
+  justify-content: center;
+  margin: 15px auto auto;
+  text-decoration: none;
+  width: 100px;
+  border: none;
+}

@@ -28,6 +28,7 @@ function Topbar() {
               className="d-inline-block align-top"
               alt="AIM Logo"
             />
+            
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" className="text-white" />
           <Navbar.Collapse id="navbarScroll" className="justify-content-center">

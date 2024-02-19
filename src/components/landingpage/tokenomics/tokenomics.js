@@ -17,8 +17,8 @@ export default function Tokenomics() {
         <div className='row'>
             <div className='desktopMainDiv'>
                 <img src={tokenomicsDesktop} alt="tokenomicsDesktop" className='tokenomicsDesktop'/>
-                <img src={tokenomicsMemes} alt="tokenomicsMemes" className='tokenomicsMemes'/>
-                <img src={analos} alt="analos" className='analos'/>
+                <img src={tokenomicsMemes} alt="tokenomicsMemes" className='tokenomicsMemes '/>
+                <img src={analos} alt="analos" className='analos w-25'/>
             </div>
         </div>
         <div className='line-footer text-white mt-5'>© Copyright 2023. All RIghts Reserved
