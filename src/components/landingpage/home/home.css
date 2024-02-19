@@ -112,10 +112,10 @@ font-weight: 700;
 
   @media screen and (max-width: 450px) {
     .mediablock{
-        margin-top: 25%;
+        margin-top: 30%;
     }
     .homeHuman, .homeDoge{
-        margin-top: 30%;
+        margin-top: 25%;
     }
   }
 
