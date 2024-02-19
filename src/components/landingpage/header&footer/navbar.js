@@ -5,19 +5,20 @@ import "./navbar.css";
 import logo from "../../assets/home/LOGO ONLY.png"
 
 function Topbar() {
-  const scrollToTop = () => {
-    scroll.scrollToTop({
-      duration: 500,
-      smooth: "linear",
-    });
-  };
+
+  // const scrollToTop = () => {
+  //   scroll.scrollToTop({
+  //     duration: 500,
+  //     smooth: "linear",
+  //   });
+  // };
 
   return (
     <>
       <Navbar expand="lg" className="bg-black" sticky="fixed">
         <Container>
           <Navbar.Brand
-            onClick={scrollToTop}
+            // onClick={scrollToTop}
             style={{ cursor: "pointer" }}
             className="fw-bold  text-white fst-italic"
           >

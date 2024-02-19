@@ -10,7 +10,7 @@ import tokenomicsMobile from '../../assets/tokenomics/tokenomicsMobile.svg';
 export default function Tokenomics() {
   return (
     <>
-    <div className='container-fluid bg-black pb-1'>
+    <div className='container-fluid action3 bg-black pb-1'>
         <div className='row text-center text-white'>
         <h1>TOKENOMICS</h1>
         </div>

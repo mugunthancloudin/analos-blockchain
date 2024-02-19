@@ -16,7 +16,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="container-fluid bg-black homeContainer">
+      <div className="container-fluid bg-black action1   homeContainer">
         <div className="row d-flex justify-content-center position-relative">
           <div className="col-lg-6 text-center text-white">
             <img src={title} alt="title" className="title w-100" />

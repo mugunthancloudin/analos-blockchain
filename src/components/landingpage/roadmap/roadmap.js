@@ -8,7 +8,7 @@ import memesRoadmapImage from '../../assets/roadmap/memesRoadmapMemsMobile.svg';
 export default function Roadmap() {
   return (
     <>
-      <div className="bg-black text-white text-center pb-5">
+      <div className="bg-black text-white action2 text-center pb-5">
       <div className="roadmap-title py-3"><h1 className='fw-bold'>ROADMAP</h1></div>
       <div className="roadmap-text mb-5">
         <h5>
