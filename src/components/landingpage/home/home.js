@@ -1,10 +1,11 @@
 import React from "react";
 import "./home.css";
-import title from "../../assets/home/dogelos.png";
+import title from "../../assets/home/Arodnap FONT-01.svg";
 import twitterLogo from "../../assets/home/twitterLogo.svg";
 import telegramLogo from "../../assets/home/telegramLogo.svg";
 import doge from "../../assets/home/bonk.doge.svg"
 import human from "../../assets/home/sbfMobile.png"
+import Topbar from "../header&footer/navbar";
 
 
 export default function Home() {
@@ -17,6 +18,9 @@ export default function Home() {
   return (
     <>
       <div className="container-fluid bg-black action1   homeContainer">
+        <div className="row">
+          <Topbar/>
+        </div>
         <div className="row d-flex justify-content-center position-relative">
           <div className="col-lg-6 text-center text-white">
             <img src={title} alt="title" className="title w-100" />

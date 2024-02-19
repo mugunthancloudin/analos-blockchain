@@ -1,5 +1,12 @@
 .homeContainer{
     width: 100%;
+    background-image: url("../../assets//home//404\ BG-01.svg");
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
+.title{
+  margin-top: 20%;
 }
 
 .social-item {

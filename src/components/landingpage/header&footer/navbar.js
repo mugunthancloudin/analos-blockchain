@@ -15,7 +15,7 @@ function Topbar() {
 
   return (
     <>
-      <Navbar expand="lg" className="bg-black" sticky="fixed">
+      <Navbar expand="lg" className="" sticky="fixed">
         <Container>
           <Navbar.Brand
             // onClick={scrollToTop}
