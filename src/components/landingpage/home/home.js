@@ -29,7 +29,7 @@ export default function Home() {
               Created as a culmination of all the memeable events on solana
             </h5>
 
-            < className="mediablock w-100" style={{ zIndex: 1000 }}>
+            <div className="mediablock w-100" style={{ zIndex: 1000 }}>
               <div className="mediablock-inside">
                 Our Social Media
                 <a
@@ -51,7 +51,7 @@ export default function Home() {
               </div>
               
                 <span className="contract-text text-warp w-100">
-                  <p className="pt-2 text-wrap">
+                  <p className="pt-2 text-wrap w-10">
                   
                     CA: 7iT1GRYYhEop2nV1dyCwK2MGyLmPHq47WhPGSwiqcUg5
                   </p>
